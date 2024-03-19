@@ -32,7 +32,7 @@ class Paymob: RCTEventEmitter, AcceptSDKDelegate {
                         paymentKey: data["paymentKey"] as! String,
                         saveCardDefault: data["saveCardDefault"] as! Bool,
                         showSaveCard: data["showSaveCard"] as! Bool,
-                        showAlerts: data["showAlerts"] as! Bool,
+                        showAlerts: data["showAlerts"] as! Bool
                         // isEnglish: data["isEnglish"] as! Bool,
                         // showScanCardButton: data["showScanCardButton"] as! Bool,
                         // buttonText: (data["buttonText"] as? String) ?? "Pay"
@@ -48,7 +48,7 @@ class Paymob: RCTEventEmitter, AcceptSDKDelegate {
                         showSaveCard: data["showSaveCard"] as! Bool,
                         showAlerts: data["showAlerts"] as! Bool,
                         token: data["cardToken"] as? String,
-                        maskedPanNumber: data["maskedCardNumber"] as? String,
+                        maskedPanNumber: data["maskedCardNumber"] as? String
                         // isEnglish: data["isEnglish"] as! Bool,
                         // showScanCardButton: data["showScanCardButton"] as! Bool,
                         // buttonText: (data["buttonText"] as? String) ?? "Pay"
